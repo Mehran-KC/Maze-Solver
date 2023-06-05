@@ -30,7 +30,7 @@ The maze solver code is based on the DFS algorithm and the HTML/CSS structure pr
 
 ## Demo
 
-You can see a live demo of the maze solver [here]([https://your-demo-link.com](https://codepen.io/MehranKC/pen/eYQObyB)).
+You can see a live demo of the maze solver [here](https://codepen.io/MehranKC/pen/eYQObyB).
 
 ## Screenshots
 
