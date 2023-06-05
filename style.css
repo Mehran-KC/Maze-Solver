@@ -1,0 +1,126 @@
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #c9c9c9;
+  font-family: Arial, sans-serif;
+}
+@keyframes fadeOut {
+  from {
+      opacity: 0;
+ }
+  to {
+      opacity: 1;
+ }
+}
+li{
+  margin-inline: 20px;
+  margin-top: 50px;
+  font-weight: 600;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+h6{
+  text-align: center;
+  font: 14px Arial, sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+ul{
+  list-style: none;
+  margin: auto;
+}
+button {
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #c819c8;
+  color: #fff;
+  font: 600 14px Arial, sans-serif;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+button:hover{
+  scale: 1.1;
+  background-color: #00ffe5;
+  color: #3e3e3e;
+}
+table {
+  margin: auto;
+  margin-bottom: 25px;
+  border-collapse: collapse;
+  border: 2px solid #333;
+}
+.active{
+  margin-inline: 50px;
+}
+.tables{
+  display: flex;
+}
+.tablebutton{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+td {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #333;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  transition: all .3s ease-in-out;
+}
+.wall {
+  background-color: #33333371;
+}
+.path {
+  background-color: #fff;
+}
+.correct-path {
+  background-color: rgb(0, 156, 0);
+  color: rgb(255, 255, 255);
+}
+.wrong-path {
+  background-color: rgb(255, 129, 129);
+}
+td.path{
+  background-color: white;
+  transition: all .3s ease-in-out;
+}
+td.path:hover{
+  background-color: rgb(253, 255, 147);
+}
+td.correct {
+  background-color: #009c00;
+  color: rgb(255, 255, 255);
+  transition: all .3s ease-in-out;
+}
+td.correct:hover {
+  background-color: #00dd00;
+}
+td.wall {
+  background-color: #4e4e4e71;
+  transition: all .3s ease-in-out;
+}
+td.wall:hover{
+  background-color: #000000ac;
+  color: white;
+}
+td.wrong-path {
+  background-color: #ff8181;
+  transition: all .3s ease-in-out;
+}
+td.wrong-path:hover{
+  background-color: #ff0000;
+}
